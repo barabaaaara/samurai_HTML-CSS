@@ -1,0 +1,10 @@
+2020/10/28 12:58:21 Error: Command failed: heroku login
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at relogin (/usr/local/heroku/node_modules/heroku-cli-util/lib/command.js:123:28)
+    at /usr/local/heroku/node_modules/heroku-cli-util/lib/command.js:162:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async V5._run (/usr/local/heroku/node_modules/@oclif/plugin-legacy/node_modules/@oclif/command/lib/command.js:43:20)
+    at async Config.runCommand (/usr/local/heroku/node_modules/@oclif/config/lib/config.js:151:9)
+    at async Main.run (/usr/local/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+    at async Main._run (/usr/local/heroku/node_modules/@oclif/command/lib/command.js:44:20)

@@ -1,0 +1,100 @@
+nil.to_s.empty
+nil.to_s.empty_
+nil.to_s.empty?
+”foo“.nil?
+"foo".nil?
+"".nil?
+nil.nil?
+puts "x is not empty" if !x.empty?
+string = "foobar"
+puts "The string'#{string}' is nonempty."unless string.empty
+ puts "The string'#{string}' is nonempty."unless string.empty?
+!!nil
+!!0
+0
+"racecar" length
+"racecar" .length
+"racecar".reverse
+s="racecar"
+s＝==s．reverse
+s ===s．rever
+s ==s.reverse
+puts "It's a palindrome!" if s == s.reverse
+def string_message(str='')
+if str.empty?
+"It's an empty string"
+else
+"The string is nonempty."
+end
+end
+puts string_message("footbar")
+puts string_message("")
+puts string_message
+def palindrome_tester(s)
+if s==s.reverse
+puts "It's a palindrome!"
+else
+puts "It's not a palindrome."
+end
+end
+puts palindrome_tester("racecar")
+puts palindrome_tester("racecar")
+palindrome_tester("racecar").nil?
+”foo bar baz” .split
+"foo bar baz".split
+"
+"fooxbarxbaz".split('X')
+"fooxbarxbaz" .split('x')
+a = [42,8,17]
+"fooxbarxbaz" .split('x')
+a = {
+a =[42,8,17]
+a[0]
+a[1]
+a[2]
+a[-1]
+a
+a.first
+a.second
+a.last
+a.last==a[-1]
+x =a.length
+x==3
+x==1
+x=!1
+x!=1
+x>=1
+x >=1
+x>1
+x<1
+x > 1
+ x =a.length
+x >
+=1
+x >=1
+x<1
+(1..5).each{|i|puts 2*i}
+(1..5).each do 
+|i¥
+|i|
+puts 2*1
+end
+(1..5).each do |i|
+puts 2*i
+end
+(1..5).each do |number|
+puts 2*number
+puts '--'
+end
+ 3.times { puts "Betelgeuse!" }
+3.times { puts "Betelgeuse!" }
+(1..5).map {|i|**2}
+(1..5).map {|i|i**2}
+%w[a b c]
+ ('a'..'z').to_a 
+ ('a'..'z').to_a.shuffle
+('a'..'z').to_a.shuffle[0..7]
+('a'..'z').to_a.shuffle[0..7]
+('a'..'z').to_a.shuffle[0..7]
+('a'..'z').to_a.shuffle[0..7].join 
+('a'..'z').to_a.shuffle[0..7].join 
